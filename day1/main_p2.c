@@ -52,7 +52,6 @@ int main() {
   FILE *fp = fopen(FILENAME, "r");
   char line[MAX_LINE];
   int calibration_total = 0;
-  int calibration = 0;
 
   while (fgets(line, sizeof(line), fp)) {
     replace(line);
