@@ -136,6 +136,8 @@ int main() {
   }
   printf("Min location (range): %ld\n", min_location);
 
+  fclose(fp);
+
   return 0;
 }
 
